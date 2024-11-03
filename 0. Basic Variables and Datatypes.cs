@@ -20,6 +20,20 @@ namespace MyApplication
       char letter = 'J';
       
       Console.WriteLine($"{name} is a {age} years old person with {height} feet height and has a salary of {salary} USD per month. The char type data enclosed under single qoutetion like '{letter}'. The expresions can be checked if true or false with bool data type like: {trueorfalse}.");
-     }
+
+      //Constants
+      
+      //with the keyword const before datatype we can make the variable constant and unchangable in future
+      const int number = 15; 
+      const string example_line = "Hello World"
+      
+      //Type Casting
+      //  two types : Implicit Casting (auto) and Explicit Casting (manual)
+      // 1. Implicit Casting:     char -> int -> long -> float -> double
+      // 2. Explicit Casting:     double -> float -> long -> int -> char
+
+      
+    
+    }
   }
 }
