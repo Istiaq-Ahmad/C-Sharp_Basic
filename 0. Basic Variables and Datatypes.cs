@@ -25,13 +25,18 @@ namespace MyApplication
       
       //with the keyword const before datatype we can make the variable constant and unchangable in future
       const int number = 15; 
-      const string example_line = "Hello World"
+      const string example_line = "Hello World";
       
       //Type Casting
       //  two types : Implicit Casting (auto) and Explicit Casting (manual)
-      // 1. Implicit Casting:     char -> int -> long -> float -> double
-      // 2. Explicit Casting:     double -> float -> long -> int -> char
-
+      
+      // 1. Implicit Casting (auto):     char -> int -> long -> float -> double\
+      int example_1 = 10;
+      double example_2 = example_1; //int automaticly converted to double
+  
+      // 2. Explicit Casting (manual):     double -> float -> long -> int -> char
+      double example_3 = 10.10;
+      int example_4 = (int) example_3; //manually casting 
       
     
     }
